@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Test</title>
+
+    <style>
+        .header{
+            padding-left: 700px;
+           
+        }
+
+        img{
+          padding-right: 0px;
+          width: 150%;
+     
+        }
+        .world{
+   color:#83c5d8;
+   font-size: 50px;
+     padding-left: 40%;   
+    }
+.btn1{
+ 
+  border-width: 10px;
+ 
+  background-color: rgb(250, 70, 109);
+  transition:color 300ms ease-in-out;
+}
+.btn1:hover{
+  background-color: rgb(25, 129, 98);
+  
+}
+.btn1::before{
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  transition: transform 300ms ease-in-out;
+  transform: translateX(0);
+  transform-origin: left;
+}
+.btn1:focus{
+color: rgb(247, 253, 251);
+}
+.btn:focus::before{
+  transform: scaleX(1);
+}
+.flower{
+  background-image: "BG_1.png";
+  z-index: -1;
+
+}
+.container .bground{
+  position: relative;
+display: block;
+ 
+}
+
+.list{
+  position:absolute;
+  top:210%;
+  right:10%;
+  font-size: 15px;
+  
+}
+.llist{
+  position: absolute;
+left:20%;
+  top:150%;
+font-size:15px;
+}
+
+/* Neelabh*/
+
+.maskf{
+  height:392px;
+  width:250px;
+  margin-top: 50%;
+}
+.Neelambhf{
+  margin-top: 20%;
+  padding-top: 50%;
+ 
+  margin-right:20%;
+  
+}
+h4{
+  color: rgb(3, 94, 86);
+}
+ .pneel{
+  font-size: 13px;
+  color: rgb(189, 185, 185);
+
+}
+
+.pflower1{
+  height: 161px;
+  width: 246px;
+  position: relative;
+top: 35%;
+  margin-right: 100%;
+  z-index: -1;
+}
+.pflower2{
+  height: 161px;
+  width: 246px;
+  z-index: 1;
+  margin-top: 145%;
+  margin-right: 100%;
+  position: relative;
+  margin-left: 30%;
+}
+.Neelambh{
+  height:674.41px;
+  width:312.4px;
+  position: absolute;
+}
+
+/*rose*/
+
+
+.rose{
+  height:346px;
+  width:205px;
+  margin-top: 100%;
+}
+.kasturif{
+  margin-top: 80%;
+  padding-top: 50%;
+ 
+  margin-right:20%;
+  
+}
+.headk{
+  color: rgb(238, 152, 24);
+}
+ .pkas{
+  font-size: 13px;
+  color: rgb(189, 185, 185);
+
+}
+
+.kflower1{
+  height: 131px;
+  width: 169px;
+  position: relative;
+top: 55%;
+  margin-right: 55%;
+  z-index: 1;
+  margin-left: 150px;
+}
+
+.kflower2{
+  
+  height: 131px;
+  width: 169px;
+  z-index: -1;
+  margin-top: 115%;
+  margin-right: 350px;
+  position: relative;
+
+}
+.kasturi{
+  height:676.25px;
+  width:306.32px;
+  position: absolute;
+}
+/*samdhi*/
+
+.maskf{
+  height:392px;
+  width:250px;
+  margin-top: 50%;
+}
+.samadhif{
+  margin-top: 20%;
+  padding-top: 50%;
+ 
+  margin-right:20%;
+  
+}
+.heads{
+  color: rgb(11, 1, 58);
+}
+ .pneel{
+  font-size: 13px;
+  color: rgb(189, 185, 185);
+
+}
+
+.sflower1{
+  height: 161px;
+  width: 246px;
+  position: relative;
+top: 25%;
+right: 10%;
+  margin-right: 100%;
+  z-index: 1;
+}
+.sflower2{
+  height: 161px;
+  width: 246px;
+  z-index: -1;
+  margin-top: 155%;
+  margin-right: 100%;
+  position: relative;
+  margin-left: 30%;
+}
+.samadhi{
+  height:674.41px;
+  width:312.4px;
+  position: absolute;
+}
+
+/*footer imges */
+
+.footer1{
+  width: 96.01px;
+  height: 96.07px;
+}
+.footer2{
+  width:64.77px;
+  height:113.16px;
+}
+.footer3{
+  width: 86.71px;
+  height:113.16px;
+}
+.footer{
+  background-color: rgb(13, 206, 240);
+  width: 1920px;
+ margin-bottom: 70px;
+ height: 472px;
+}
+.footerrow{
+  margin-top:100px;
+  margin-left: 50px;
+ 
+}
+.footerl{
+  padding-left: 200px;
+
+}
+.box{
+  height: 50px;
+  width:50px;
+  background-color: rgb(238, 138, 205);
+  border-radius: 50px;
+  margin:10px;
+  text-align: center;
+  line-height: 30px;
+  box-shadow:  rgb(2, 8, 2);
+}
+.copyright{
+  padding-left:900px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+#uncopyright{
+  font-size:smaller;
+  color: rgb(172, 168, 168);
+}
+.footerlist{
+  font-size: smaller;
+  color: rgb(172, 168, 168);
+}
+    </style>
+</head>
+<body>
+
+    <!----header-->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container header">
+          <a class="nav-link" href="">Products</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link " aria-current="page" href="">About</a>
+              <a class="nav-link" href="">Community</a>
+              <a class="nav-link" href="">Find Us</a>
+              <a class="nav-link ">FAQ</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<section>
+  <div class="row">
+    <div class="col-lg col-lg col-lg col-lg"></div>
+    <div class="col-lg col-lg col-lg col-lg"></div>
+    <div class="col-lg col-lg col-lg col-lg"><img src="Mask Group 3.png"></div>
+    <div class="col-lg col-lg col-lg col-lg"></div>
+  </div>
+</section>
+
+<section>
+  <div class="row">
+    <div class="col-lg col-lg col-lg col-lg world"><p>World's <br>Finest Fragrant<br> Assortments</p>
+      <button type="button" class="btn1  btn-lg">View Our Products</button></div>
+    <div class="col-lg col-lg col-lg col-lg"><img  class="sandalwood"src="Mask Group 6.png"></div>
+    
+  </div>
+</section>
+    
+
+<!---second image and list-->
+<section>
+  <div class="container ">
+  <div class="row flower">
+    <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+      <div><img class="bground" src="BG_1.png"></div>
+    <div class="list">
+
+      <div class="list-group">
+        <label class="list-group">
+          <input class="form-check-input me-1" type="checkbox" value="">
+          First checkbox
+        </label>
+        <label class="list-group">
+          <input class="form-check-input me-1 " type="checkbox" value="">
+          Second checkbox
+        </label> 
+        <label class="list-group">
+          <input class="form-check-input me-1" type="checkbox" value="">
+          Third checkbox
+        </label>
+        <label class="list-group">
+          <input class="form-check-input me-1" type="checkbox" value="">
+          Fourth checkbox
+        </label>
+        <label class="list-group">
+          <input class="form-check-input me-1" type="checkbox" value="">
+          Fifth checkbox
+        </label>
+      </div>
+    </div>
+<!----list left top -->
+<div class="list llist">
+
+  <div class="list-group">
+    <label class="list-group">
+      <input class="form-check-input " type="checkbox" value="">
+      First checkbox
+    </label>
+    <label class="list-group">
+      <input class="form-check-input " type="checkbox" value="">
+      Second checkbox
+    </label> 
+    <label class="list-group">
+      <input class="form-check-input me-1" type="checkbox" value="">
+      Third checkbox
+    </label>
+    <label class="list-group">
+      <input class="form-check-input me-1" type="checkbox" value="">
+      Fourth checkbox
+    </label>
+    <label class="list-group">
+      <input class="form-check-input me-1" type="checkbox" value="">
+      Fifth checkbox
+    </label>
+  </div>
+</div>
+    </div>
+
+  </div>
+</div>
+</section>
+<!---Neelambh-->
+<section>
+  <div class="container">
+  <div class="row">
+    <div class="col-lg col-lg col-lg col-lg"><img class="maskf" src="Mask Group 7.png"></div>
+    <div class="col-lg col-lg col-lg col-lg"><div class="Neelambhf"><h4>Neelambh</h4><p class="pkas">Fused in the scent of tradition & love our incence sticks  makes the pooja offering blissfull </p></div></div>
+    <div class="col-lg col-lg col-lg col-lg "><img class="pflower1" src="1-01.png"> <img class="Neelambh"src="Neelambh.png"> <img class="pflower2"  src="1-01.png"> </div>
+  </div>
+</div>
+</section>
+
+<!---Kasturi-->
+<section>
+  <div class="container">
+  <div class="row">
+    <div class="col-lg col-lg col-lg col-lg"><img class="rose" src="rose.png"></div>
+    <div class="col-lg col-lg col-lg col-lg"><div class="kasturif"><h4 class="headk">Himalyan Kasturi</h4><p class="pneel">Fused in the scent of tradition & love our incence sticks  makes the pooja offering blissfull </p></div></div>
+    <div class="col-lg col-lg col-lg col-lg "><img class="kflower1" src="2-01.png"> <img class="kasturi"src="Kasturi.png"> <img class="kflower2"  src="2-01.png"> </div>
+  </div>
+</div>
+</section>
+
+<!--samadhi-->
+<section>
+  <div class="container mb-5">
+  <div class="row">
+    <div class="col-lg col-lg col-lg col-lg"><img class="maskf" src="Mask Group 7.png"></div>
+    <div class="col-lg col-lg col-lg col-lg"><div class="samadhif"><h4 class="heads">Samadhi</h4><p class="pneel">Fused in the scent of tradition & love our incence sticks  makes the pooja offering blissfull </p></div></div>
+    <div class="col-lg col-lg col-lg col-lg "><img class="sflower1" src="3-01.png"> <img class="samadhi"src="Samadhi.png"> <img class="sflower2"  src="3-01.png"> </div>
+  </div>
+</div>
+</section>
+<footer>
+  <div class="container footer">
+    <div class="row mt-5">
+      <div class="col-lg col-lg col-lg col-lg footerrow"><img class="footer1" src="Layer20_1.png"><h3>Quality</h3> <p>Made with natural plants oils and resins</p></div>
+      <div class="col-lg col-lg col-lg col-lg footerrow"><img class="footer2" src="Layer.png"><h3>Social Cause</h3> <p>Made with natural plants oils and resins</p></div>
+      <div class="col-lg col-lg col-lg col-lg footerrow"><img class="footer3 " src="Laye2.png"><h3>Ethical Practices</h3> <p>Made with natural plants oils and resins</p></div></div>
+    </div>
+</footer>
+
+<!---lowerpar of footer-->
+<div class="continer">
+  <div class="row">
+<div class="col-lg col-lg col-lg col-lg ">
+  <div class="footerl">
+   <h3>Fresh Updates, <br>Direct To Your Inbox</h3>
+  <button type="button" class="btn btn-outline-danger ps-2" placeholder="sign up for our newsletter!"></button>
+  <button type="button" class="btn btn-primary btn-sm ps-2">Submit</button>
+ 
+  <!--footer nav bar-->
+  <nav class="navbar navbar-expand-lg  ">
+    <div class="container-fluid footerlist">
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Contact us </a>
+          <a class="nav-link" href="#">Terms and conditions </a>
+          <a class="nav-link" href="#">Privacy Policy</a>
+        
+        </div>
+      </div>
+    </div>
+  </nav>
+  </div>
+</div>
+</div>
+<div class="col-lg col-lg col-lg col-lg ">
+  
+ <div class="copyright">
+   <h3>Follow Us: </h3>
+ <a class="box" href="">
+  <i class="fa fa-2x fa-facebook"></i>
+ </a>
+ <a class="box" href="">
+  <i class="fa fa-2x fa-instagram"></i>
+ </a>
+ <p id="uncopyright">uncopyright &copy: 2022 3idea Technology All Right Reserved</p>
+</div>
+  </div>
+</div>
+</div>
+</body>
+</html>
